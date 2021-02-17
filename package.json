@@ -1,0 +1,16 @@
+{
+  "name": "unity-game-server",
+  "version": "1.0.0",
+  "description": "unity game server ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Claverias4",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.4",
+    "shortid": "^2.2.15",
+    "socket.io": "^2.3.0"
+  }
+}
