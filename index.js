@@ -1,3 +1,6 @@
+// ws://127.0.0.1:3000/socket.io/?EIO=4&transport=websocket
+// ws://roombarunner.herokuapp.com:80/socket.io/?EIO=4&transport=websocket
+
 var io = require('socket.io')(process.env.PORT || 3000)
 let Server = require('./Classes/Server');
 
